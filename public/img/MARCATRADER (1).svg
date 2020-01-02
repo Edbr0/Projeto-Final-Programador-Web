@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="67.7332mm" height="33.8666mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6773.32 3386.66"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:black}
+    .fil1 {fill:black;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2749292762816">
+   <polygon class="fil0" points="1213.94,1286.32 827,1286.32 825.83,1289.17 1016.85,1762.43 "/>
+   <g>
+    <polygon class="fil0" points="1249.88,1282.94 837.97,1282.94 1216.61,2220.97 1431.01,1702.99 "/>
+    <rect class="fil0" transform="matrix(1.26943 -0 -3.11958 7.53681 840.296 1282.98)" width="304.8" height="220.13"/>
+   </g>
+   <polygon class="fil0" points="2386.19,664.15 1852.43,664.15 2328.99,1810.27 2589.96,1156.42 "/>
+   <rect class="fil0" transform="matrix(1.7534 -0 -4.30892 10.4102 1849.06 664.207)" width="304.8" height="220.13"/>
+   <rect class="fil0" transform="matrix(-2.11298 -0 5.19259 12.5451 3579.35 197.603)" width="304.8" height="220.13"/>
+   <rect class="fil0" transform="matrix(2.11298 -0 -5.19259 12.5451 2932.02 197.603)" width="304.8" height="220.13"/>
+   <polygon class="fil0" points="2882.62,2204.93 3390.72,1655.36 3629.2,2204.93 "/>
+   <path class="fil1" d="M4907.18 199.01l368.12 893.35 368.11 -893.35 -736.23 0zm184.05 446.68m368.12 0m-184.05 -446.68"/>
+   <rect class="fil0" transform="matrix(1.22471 -0 0.51381 1.22198 3904.32 199.919)" width="685.8" height="719.67"/>
+   <rect class="fil0" transform="matrix(-1.22471 -0 -0.51381 1.22198 6644.39 198.022)" width="685.8" height="719.67"/>
+   <g>
+    <path class="fil1" d="M4894.93 2075.32l379.52 -875.13 379.52 875.13 -379.52 875.16 -379.52 -875.16zm0 0l759.04 0 -759.04 0z"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,122 @@
+<!-- Titulo da Página / Logomarca -->
+<div class="containe mx-auto">
+  <div class="container">
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="../img/MARCATRADER (1).svg" alt="logo" width="150">
+      <h2>Formulário de Cadastro</h2>
+    </div>
+  </div>
+
+  {{#each error}}
+  <div class="container text-center mt-4">
+    <div class="alert alert-danger" role="alert">
+      {{texto}}
+    </div>
+  </div>
+{{else}}
+
+{{/each}}
+
+{{#each success}}
+  <div class="container text-center mt-4">
+    <div class="alert alert-success" role="alert">
+      {{texto}} <br><br>
+      <img src="/img/icons/success-icon-2.png" alt="success" width="40"><br><br>
+      <p>Voce foi matriculado com sucesso.</p>
+    </div>
+  </div>
+{{else}}
+
+{{/each}}
+
+  <!------------ Formulário ------------------->
+  <div class="container" style="width: 800px;">
+    <h4 class="mb-3">Preencha os dados.</h4>
+    <form method="POST" action="/produtos/cadastro" class="needs-validation" novalidate>
+      <div class="row">
+        <!-- CAMPO NOME -->
+        <div class="col-md-6 mb-3">
+          <label for="firstName">Nome</label>
+          <input type="text" class="form-control" id="firstName" name="nome" required>
+          <div class="invalid-feedback">
+            Digite um nome válido.
+          </div>
+        </div>
+
+        <!-- CAMPO SOBRENOME -->
+        <div class="col-md-6 mb-3">
+          <label for="lastName">Sobrenome</label>
+          <input type="text" class="form-control" id="lastName" name="sobrenome" required>
+          <div class="invalid-feedback">
+            Digite um sobrenome válido.
+          </div>
+        </div>
+      </div>
+      <!-- CAMPO EMAIL -->
+      <div class="mb-3">
+        <label for="email">Email <span class="text-muted">(Optional)</span></label>
+        <input type="email" class="form-control" id="email" placeholder="seuemail@example.com" name="email">
+        <div class="invalid-feedback">
+          Digite um e-mail válido.
+        </div>
+      </div>
+      <!-- CAMPO ENDEREÇO -->
+      <div class="mb-3">
+        <label for="address">Endereço</label>
+        <input type="text" class="form-control" id="address" placeholder="Rua, Numero..." name="endereco" required>
+        <div class="invalid-feedback">
+          Digite um endereço válido.
+        </div>
+      </div>
+      <!-- CAMPO PAÍS -->
+      <div class="row">
+        <div class="col-md-5 mb-3">
+          <label for="country">País</label>
+          <select class="custom-select d-block w-100" id="country" name="pais" required>
+            <option value="">Escolha...</option>
+            <option>Brasil</option>
+          </select>
+          <div class="invalid-feedback">
+            Selecione um país.
+          </div>
+        </div>
+        <!-- CAMPO ESTADO -->
+        <div class="col-md-4 mb-3">
+          <label for="state">Estado</label>
+          <select class="custom-select d-block w-100" id="state" name="estado" required>
+            <option value="">Escolha</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+          <div class="invalid-feedback">
+            Selecione um Estado.
+          </div>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <button class="btn btn-primary btn-lg " type="submit">Finalizar Inscrição</button>

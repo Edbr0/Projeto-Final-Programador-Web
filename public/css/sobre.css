@@ -1,0 +1,16 @@
+.sobre-bg {
+    background-image: url(../img/bg-acesso-conta-1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: #ffffff;
+}
+
+.margin-text {
+    position: relative;
+    bottom:100px;
+}
+

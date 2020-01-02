@@ -1,0 +1,111 @@
+.section-header {
+  background-image: url(../img/Banner.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.logo {
+  margin-left: 32px;
+}
+
+.bg {
+  background-color: #0c0435;
+}
+
+.ul-menu {
+  margin-left: 50px;
+}
+
+div#navbarTogglerDemo01 ul li a:hover {
+  text-align: center;
+  background-color: purple;
+  text-decoration: none;
+}
+.img-homem {
+  position: relative;
+  bottom: 50%;
+  left: 12%;
+}
+.text-baner {
+  position: relative;
+  bottom: 250px;
+  left: 34.5%;
+}
+.botao1 {
+  position: relative;
+  margin-top: 8%;
+}
+.bot-form {
+  height: 80px;
+  border-radius: 50px;
+}
+
+.card-inst {
+  display: flex;
+  align-items: center;
+}
+
+.section-card {
+  background-image: url(../img/curso2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  margin-top: 60px;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.card-espaco {
+  margin-left: 5px;
+}
+
+.margin-topo {
+  margin-top: 10%;
+}
+
+.bigcard {
+  margin: auto;
+}
+
+.bg-cards {
+  position: relative;
+  top: 450px;
+  width: 100%;
+  height: 300px;
+}
+
+.card-borda {
+  border: none;
+  outline: none;
+}
+
+.botao2 {
+  position: relative;
+  bottom: 100px;
+  color: #000000;
+  right: 100px;
+}
+
+.text-format {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.second-section {
+  background-image: url(../img/day-trade-dicas-rafael-destaque.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
